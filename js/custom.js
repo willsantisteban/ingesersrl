@@ -3,12 +3,6 @@ jQuery(document).ready(function() {
   //WOW js code
     new WOW().init();
 
-    //this code is for the gmap
-	 var map = new GMaps({
-        el: '#map',
-        lat: -33.0173404,
-        lng: -60.6795879
-      });
 
 
       //this code is for smooth scroll and nav selector

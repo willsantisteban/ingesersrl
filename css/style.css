@@ -25,7 +25,6 @@ h4{
 	font-size: 14px;
 	color: #008ed6;
 	text-transform: uppercase;
-	margin-top: 65px;
 	font-weight: 700;
 }
 h2{
@@ -126,11 +125,15 @@ ul.nav{
 .banner h1{
 	font-size: 48px;
 	color: #fff;
+    text-transform: none;
+	margin-top: 200px;
+	font-weight: 700;
 }
 .banner p{
 	font-size: 18px;
-	color: #999999;
+	color: #fff;
 	margin-top: 25px;
+    margin-bottom: 200px;
 	line-height: 2;
 	font-weight: 600;
 }
@@ -204,8 +207,8 @@ ul.nav{
 	margin-bottom: 70px;
 }
 /*details area*/
-.details-phone{
-	margin-top: 50px;
+.details {
+	padding : 75px 0;
 }
 .details p{
 	font-size: 18px;
@@ -232,7 +235,7 @@ ul.nav{
 	background: #f2f2f2;
 }
 .feature-detail h4{
-	margin-top: 120px;
+	margin-top: 50px;
 }
 .feature-detail h2{
 	margin-bottom: 10px;
@@ -253,6 +256,7 @@ ul.nav{
 	background-position: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+	padding : 75px 0;
 }
 .pricing-slide h2{
 	margin-bottom: 10px;
@@ -500,12 +504,106 @@ ul.nav{
 	border:0;
 	margin-bottom: 40px;
 }
+
+/*Custom contact area */
+#contacto {
+padding : 75px 0;
+font-family : 'Lato', sans-serif;
+background : #fff;
+}
+
+#contacto p {
+color : #666666;
+font-family : "Lato", sans-serif;
+font-size : 14px;
+letter-spacing : 1px;
+}
+
+#cnt_form .btn {
+background : #353638;
+padding : 10px 35px;
+}
+#cnt_form .form-control:focus {
+border : #0080FF solid 1px;
+}
+.cnt_info ul {
+margin : 0;
+padding : 0;
+border-left : 1px solid #C7C7C7;
+padding-left : 30px;
+}
+.cnt_info ul li {
+list-style : none outside none;
+padding : 15px 0;
+}
+.cnt_info ul li i {
+color : #818181;
+float : left;
+margin-top : 5px;
+}
+.cnt_info p {
+padding-left : 30px;
+}
+
+.cnt_title_sec {
+margin : 0 auto;
+padding : 0 0 25px 0;
+text-align : center;
+}
+.cnt_title_sec > h2 {
+color : #606060;
+font-size : 12px;
+text-transform : uppercase;
+letter-spacing : 1px;
+}
+
+
+.cnt_title_sec > h1 {
+color : #141414;
+font-size : 18px;
+text-transform : capitalize;
+font-weight : 800;
+}
+
+#message {
+height : 90px;
+}
+
+.map_area {
+margin-bottom : 93px;
+}
+
 /*map section*/
 #map{
 	width: 100%;
 	height: 370px;
 	pointer-events: none;
 }
+
+#ltd_map_sec {
+background : none 0 0 repeat scroll #363636;
+text-align : center;
+}
+
+.map > h1 {
+color : #fff;
+font-size : 20px;
+font-weight : normal;
+text-transform : uppercase;
+}
+
+.map i {
+font-size : 22px;
+font-weight : bold;
+color : #fff;
+/*margin-left : 15px; */
+}
+
+.show_hide {
+color : #3399FF;
+/* margin-left : 15px; */
+}
+
 /*footer section*/
 .footer{
 	background: #15141a;
