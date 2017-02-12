@@ -208,7 +208,7 @@ ul.nav{
 }
 /*details area*/
 .details {
-	padding : 75px 0;
+	padding-top : 75px;
 }
 .details p{
 	font-size: 18px;
@@ -251,12 +251,13 @@ ul.nav{
 
 /*pricing-slide area*/
 .pricing-slide{
-	background: url(../img/paralax.jpg);
+	/*background: url(../img/paralax.jpg);
 	background-repeat: no-repeat;
 	background-position: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
-	padding : 75px 0;
+	background-size: cover;*/
+	padding-top : 75px;
+    background: #15141a;
 }
 .pricing-slide h2{
 	margin-bottom: 10px;
@@ -273,7 +274,7 @@ ul.nav{
 .item img{
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 .item h5{
 	font-size: 14px;
