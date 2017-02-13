@@ -508,70 +508,69 @@ ul.nav{
 
 /*Custom contact area */
 #contacto {
-padding : 75px 0;
-font-family : 'Lato', sans-serif;
-background : #fff;
+	padding : 75px 0;
+	font-family : 'Lato', sans-serif;
+	background : #fff;
 }
 
 #contacto p {
-color : #666666;
-font-family : "Lato", sans-serif;
-font-size : 14px;
-letter-spacing : 1px;
-}
+	color : #666666;
+	font-family : "Lato", sans-serif;
+	font-size : 14px;
+	letter-spacing : 1px;
+	}
 
 #cnt_form .btn {
-background : #353638;
-padding : 10px 35px;
+	background : #353638;
+	padding : 10px 35px;
 }
 #cnt_form .form-control:focus {
-border : #0080FF solid 1px;
+	border : #0080FF solid 1px;
 }
 .cnt_info ul {
-margin : 0;
-padding : 0;
-border-left : 1px solid #C7C7C7;
-padding-left : 30px;
+	margin : 0;
+	padding : 0;
+	border-left : 1px solid #C7C7C7;
+	padding-left : 30px;
 }
 .cnt_info ul li {
-list-style : none outside none;
-padding : 15px 0;
+	list-style : none outside none;
+	padding : 15px 0;
 }
 .cnt_info ul li i {
-color : #818181;
-float : left;
-margin-top : 5px;
+	color : #818181;
+	float : left;
+	margin-top : 5px;
 }
 .cnt_info p {
-padding-left : 30px;
+	padding-left : 30px;
 }
 
 .cnt_title_sec {
-margin : 0 auto;
-padding : 0 0 25px 0;
-text-align : center;
+	margin : 0 auto;
+	padding : 0 0 25px 0;
+	text-align : center;
 }
 .cnt_title_sec > h2 {
-color : #606060;
-font-size : 12px;
-text-transform : uppercase;
-letter-spacing : 1px;
+	color : #606060;
+	font-size : 12px;
+	text-transform : uppercase;
+	letter-spacing : 1px;
 }
 
-
 .cnt_title_sec > h1 {
-color : #141414;
-font-size : 18px;
-text-transform : capitalize;
-font-weight : 800;
+	color : #141414;
+	font-size : 36px;
+	text-transform : capitalize;
+	font-weight : 800;
 }
 
 #message {
-height : 90px;
+	height : 90px;
 }
 
 .map_area {
-margin-bottom : 93px;
+	margin-bottom : 93px;
 }
 
 /*map section*/
