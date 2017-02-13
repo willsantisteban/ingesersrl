@@ -363,10 +363,11 @@
 
 	function submitForm(oFormElement){		
 		var xhr = new XMLHttpRequest();
-		xhr.onload = function(){  			
+		xhr.onload = function(){
 				var frm = document.getElementById("contact-form");
 				frm.reset();
 				alert("Gracias por su consulta, nos pondremos en contacto a la brevedad.");
+				//document.getElementById("contact-form").innerHTML = xhr.responseText;
 		};
 		$action="sendContactEmail.php";
 		xhr.open (oFormElement.method, $action, true);

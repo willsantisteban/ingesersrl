@@ -16,11 +16,11 @@
 		}
 
 		if (isset($result) && !$result){
-			$logManager->appendfile('EmailContact', var_dump($emailHelper->errors));
+			$logManager->appendfile("EmailContact", var_dump($emailHelper->errors));
 		}
 	}
 	else {
-		$logManager->appendfile('EmailContact', 'No hay post');
+		$logManager->appendfile("EmailContact", "No hay post");
 	}
 
 ?>

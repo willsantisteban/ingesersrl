@@ -20,8 +20,8 @@ class LogManager
         
         $filename = $this->pre_name . $date->format('Ymd');
         
-        $tmp_faile = $this->rootdirectorie .'\..\\'. $this->logdirectorie .'\\'.$filename;
-        
+        $tmp_faile = $this->rootdirectorie .'\..\\'. $this->logdirectorie .'\\'.$filename .'.txt';
+
         return fopen($tmp_faile, 'a+');
     }
 
@@ -31,9 +31,9 @@ class LogManager
         $date = new DateTime();
         
         //[date and time] domine - message
-        $fullmessage = "[".$date->format('Y-m-d H:i:s')."] : ". $domine -'-'. $message;
-        
-        if (!$afile){
+        $fullmessage = "[".$date->format('Y-m-d H:i:s')."] : ". $domine .' - '. $message . PHP_EOL;
+
+        if ($afile){
             fwrite($afile, $fullmessage);
         }
         
